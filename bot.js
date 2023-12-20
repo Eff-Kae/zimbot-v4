@@ -37,38 +37,38 @@ global.APIKeys = {
 global.Api = new (require('./plugins/neoxrApi.js'))(process.env.API_KEY)
 
 //settings
-global.owner = ['+447441437150',''] //owner number ++447441437150
-global.wame = ['+447441437150'] 
-global.pemilik = ['+447441437150'] //owner number ++447441437150
-global.premium = ['+447441437150'] //premium number ++447441437150
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.owner = ['2347085169941',''] //owner number ++447441437150
+global.wame = ['2347085169941'] 
+global.pemilik = ['2347085169941'] //owner number ++447441437150
+global.premium = ['2347085169941'] //premium number ++447441437150
+global.pengguna = 'ᴋᴀᴇ ༒' //username
+global.footer = 'ᴋᴀᴇ ༒'
+global.botnma = '𝓚𝓐𝓔 𝓣𝓔𝓒𝓗 𝓑𝓞𝓣' //bot name
+global.botname = '𝓚𝓐𝓔 𝓣𝓔𝓒𝓗 𝓑𝓞𝓣'
+global.ownernma = 'ᴋᴀᴇ ༒' //owner name
+global.packname = 'DONT STEAL THIS 😑😒' //sticker package name
+global.author = 'ᴋᴀᴇ ༒' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
 global.max_upload = 100
-global.dripstyping = false
+global.dripstyping = true
 global.dripsreadgroup = false
 global.dripsreadall = true
 global.dripsrecord = true
-global.available = false
+global.available = true
 global.unavailable = false
 global.limittot = 100,
-global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
+global.thumb = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
 global.reactmoji = '🇿🇼'
-global.imgjoinrpg = fs.readFileSync('./image/joinrpg.jpg')
-global.imgmining = fs.readFileSync('./image/mining.jpg')
-global.imgdevil = fs.readFileSync('./image/img/devil.jpg')
-global.imgslime = fs.readFileSync('./image/img/slime.jpg')
-global.imgdemon = fs.readFileSync('./image/img/demon.jpg')
-global.imggoblin = fs.readFileSync('./image/img/goblin.jpg')
-global.imgdemonking = fs.readFileSync('./image/img/demonking.jpg')
-global.imgbehemoth = fs.readFileSync('./image/img/behemoth.jpg')
+global.imgjoinrpg = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgmining = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgdevil = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgslime = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgdemon = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imggoblin = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgdemonking = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
+global.imgbehemoth = fs.readFileSync('https://i.pinimg.com/736x/4c/cd/30/4ccd30c0a5c205f8ac232f15896488cf.jpg')
 global.f1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 global.f2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
 global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
@@ -79,13 +79,13 @@ global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=tru
 global.mess = {
     success: 'Takaenda Done!',
     admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    botAdmin: '*𝓚𝓐𝓔 𝓣𝓔𝓒𝓗 𝓑𝓞𝓣 bot  must be admin first!*',
+    owner: '*this feature is only for 𝓚𝓐𝓔 𝓣𝓔𝓒𝓗 𝓑𝓞𝓣 owner*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
+    wait: '*whoa wait a moment 𝓚𝓐𝓔 𝓣𝓔𝓒𝓗 𝓑𝓞𝓣 proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
     noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
 }
